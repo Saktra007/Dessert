@@ -16,7 +16,7 @@ const FilterBar = ({ search, setSearch, category, setCategory }) => {
           {Category.map((cate) => (
             <button
               onClick={() => setCategory(cate)}
-              className={`border-2 mx-1 max-md: max-xl:text-xs rounded-3xl w-28 h-10 ${
+              className={`border-2 mx-1 max-xl:text-xs text-sm rounded-3xl w-28 h-10 ${
                 category === cate
                   ? "bg-cyan-300 underline ring border-indigo-600 underline-offset-2 decoration-2"
                   : "bg-orange-100"
