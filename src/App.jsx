@@ -8,8 +8,8 @@ const App = () => {
   const filteredDesserts = useMemo(() => {
     return desserts.filter((item) => {
       const matchesSearch = item.name
-        .toLocaleLowerCase()
-        .includes(search.toLocaleLowerCase());
+        .toLowerCase()
+        .includes(search.trim().toLowerCase());
       const matchesCategory = category === "All" || item.category === category;
       return matchesCategory && matchesSearch;
     });
@@ -28,7 +28,7 @@ const App = () => {
           category={category}
           setCategory={setCategory}
         />
-        <div className="w-full max-w-6xl grid justify-center sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 mx-auto gap-8 py-10">
+        <div className="w-full max-w-6xl grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 justify-around gap-8 mx-auto py-10">
           {filteredDesserts.length > 0 ? (
             filteredDesserts.map((item) => (
               <DessertCard key={item.id} product={item} />

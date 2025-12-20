@@ -10,9 +10,9 @@ const FilterBar = ({ search, setSearch, category, setCategory }) => {
           value={search}
           onChange={(e) => setSearch(e.target.value)}
           placeholder="Search desserts...."
-          className="rounded-3xl focus:ring-4 ring-cyan-300 border-2 max-md:mb-5 md:w-2/3 bg-white w-11/12 h-10 pl-3"
+          className="rounded-3xl focus:ring-4 ring-cyan-300 border-2 max-md:mb-5 md:w-2/3 bg-white h-10 pl-3"
         />
-        <div className="flex justify-between md:ml-2 md:w-1/3 w-11/12">
+        <div className="flex justify-between md:ml-2 md:w-1/3 ">
           {Category.map((cate) => (
             <button
               onClick={() => setCategory(cate)}
