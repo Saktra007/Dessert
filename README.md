@@ -56,9 +56,7 @@ cd Dessert
 3. Install dependencies
 npm install
 4. Run the development server
-npm start
-# or
-npm run dev
+npm start or npm run dev
 
 ---
 
