@@ -28,7 +28,7 @@ Users can search, filter by category, and view detailed information for each des
 
 ## 📂 Project Structure
 
-`txt
+```txt
 Dessert/
 ├── node_modules/
 ├── src/
@@ -52,7 +52,6 @@ Dessert/
 ├── README.md
 ├── tailwind.config.js
 └── vite.config.js
-`
 
 ---
 
