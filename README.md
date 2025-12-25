@@ -58,8 +58,6 @@ Dessert/
 
 ## ▶️ Getting Started
 
-```bash
-
 1. Clone the repository
    git clone https://github.com/Saktra007/Dessert.git
 2. Navigate to the project directory
@@ -69,4 +67,3 @@ Dessert/
 4. Run the development server
    npm start or npm run dev
 
-```
