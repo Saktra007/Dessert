@@ -14,10 +14,8 @@ const DessertCard = ({ product }) => {
         />
       </div>
       <div className="p-5">
-        <div className="flex">
-          <h3 className="text-xl font-bold p-1">{name}</h3>
-        </div>{" "}
-        <h6 className="font-bold pb-3">{category}</h6>
+        <h3 className="text-xl text-center font-bold p-1">{name}</h3>
+        <h6 className="font-bold border-2 m-2 rounded-md  p-1">{category}</h6>
         <button
           className="font-bold mb-3 text-base transition-all duration-500 bg-blue-600 text-white px-4 py-2 rounded-full"
           onClick={() => setOpen(!open)}
@@ -32,7 +30,7 @@ const DessertCard = ({ product }) => {
         )}
         <h4 className="p-1 text-lg mb-1">Rating:{rating}</h4>
         <h5 className="text-zinc-900 font-medium p-1 ">{price} $</h5>
-        <button className="font-bold">Order Now</button>
+        <button className="font-bold rounded-md bg-green-600 text-white px-4 py-2">Order Now</button>
       </div>
     </div>
   );

@@ -26,25 +26,29 @@ Users can search, filter by category, and view detailed information for each des
 
 ## 📂 Project Structure
 Dessert/
-├─ node_modules/
-├─ src/
-│  ├─ components/
-│  │  ├─ DessertCard.jsx
-│  │  └─ FilterBar.jsx
-│  ├─ data/
-│  │  └─ desserts.js
-│  ├─ App.jsx
-│  ├─ index.css
-│  └─ main.jsx
-├─ .gitignore
-├─ eslint.config.js
-├─ index.html
-├─ package-lock.json
-├─ package.json
-├─ postcss.config.js
-├─ README.md
-├─ tailwind.config.js
-└─ vite.config.js
+├── node_modules/
+├── src/
+│   ├── components/
+│   │   ├── DessertCard.jsx
+│   │   └── FilterBar.jsx
+│   │
+│   ├── data/
+│   │   └── desserts.js
+│   │
+│   ├── App.jsx
+│   ├── index.css
+│   └── main.jsx
+│
+├── .gitignore
+├── eslint.config.js
+├── index.html
+├── package-lock.json
+├── package.json
+├── postcss.config.js
+├── README.md
+├── tailwind.config.js
+└── vite.config.js
+
 
 ---
 

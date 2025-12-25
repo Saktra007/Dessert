@@ -36,10 +36,7 @@ const App = () => {
           ) : (
             <div className="text-3xl flex flex-col justify-center items-center col-span-full h-64 text-gray-500">
               <span className="text-6xl mb-4">🍩</span>
-              <p>
-
-              រកមិនឃើញបង្អែមដែលអ្នកចង់រកទេ... 
-              </p>
+              <p>No desserts found matching your criteria.</p>
             </div>
           )}
         </div>
