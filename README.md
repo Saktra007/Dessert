@@ -6,6 +6,7 @@ Users can search, filter by category, and view detailed information for each des
 ---
 
 ## 🚀 Features
+
 - 🔍 Search desserts by name
 - 🧁 Filter by category (Cakes, Pastries, Cold Treats)
 - 📄 View dessert details (description & calories)
@@ -16,6 +17,7 @@ Users can search, filter by category, and view detailed information for each des
 ---
 
 ## 🛠️ Technologies Used
+
 - ReactJS
 - JavaScript (ES6+)
 - Tailwind CSS
@@ -25,6 +27,8 @@ Users can search, filter by category, and view detailed information for each des
 ---
 
 ## 📂 Project Structure
+
+`txt
 Dessert/
 ├── node_modules/
 ├── src/
@@ -48,19 +52,20 @@ Dessert/
 ├── README.md
 ├── tailwind.config.js
 └── vite.config.js
-
+`
 
 ---
 
 ## ▶️ Getting Started
+
 1. Clone the repository
-git clone https://github.com/Saktra007/Dessert.git
+   git clone https://github.com/Saktra007/Dessert.git
 2. Navigate to the project directory
-cd Dessert
+   cd Dessert
 3. Install dependencies
-npm install
+   npm install
 4. Run the development server
-npm start or npm run dev
+   npm start or npm run dev
 
 ---
 
