@@ -59,11 +59,25 @@ Dessert/
 ## ▶️ Getting Started
 
 1. Clone the repository
-   git clone https://github.com/Saktra007/Dessert.git
-2. Navigate to the project directory
-   cd Dessert
-3. Install dependencies
-   npm install
-4. Run the development server
-   npm start or npm run dev
 
+```bash
+   git clone https://github.com/Saktra007/Dessert.git
+```
+
+2. Navigate to the project directory
+
+```bash
+   cd Dessert
+```
+
+3. Install dependencies
+
+```bash
+   npm install
+```
+
+4. Run the development server
+
+```bash
+   npm start or npm run dev
+```
