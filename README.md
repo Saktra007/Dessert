@@ -5,6 +5,12 @@ Users can search, filter by category, and view detailed information for each des
 
 ---
 
+## 🚀 Live Demo
+
+https://dessert-smoky.vercel.app/
+
+---
+
 ## 🚀 Features
 
 - 🔍 Search desserts by name
